@@ -11,3 +11,16 @@ function data() {
 }
 
 first(data)
+
+
+function ops(callback) {
+    var b = "This function perform operations"
+    callback(console.log(b))
+    
+}
+
+function info() {
+    console.log("this function has info for logs")
+}
+
+ops(info)
