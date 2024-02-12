@@ -1,4 +1,4 @@
-// The process of inheriting values of another class is known as inheritance.There are three types of inheritance
+    // The process of inheriting values of another class is known as inheritance.There are three types of inheritance
 // Prototypal inheritance, Pseudo classical inheritance, Functional inheritance.
 
 class Animal {
@@ -47,6 +47,11 @@ const obj = new Animal("Ranbir","Bobby");
     Object.setPrototypeOf(employeeThree,employeeTwo);
     console.log(employeeThree.designationFour);
     console.log(employeeTwo.designationOne)
+
+
+    class secondpart extends Animal {
+        
+    }
 
 
 
