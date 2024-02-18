@@ -14,3 +14,14 @@ var arr = [1,2,3,4]
 var c = arr.map((s) => s.length);
 
 console.log("using arrow function", c)
+
+// addition
+
+function addition(c,d) {
+    return c+d;
+}
+
+const ans = addition(4,3)
+console.log(ans)
+
+
