@@ -1,3 +1,5 @@
+// Object is a collection of properties where all the data is stored in a key value pair
+
 const a = new Object()
 a.first = 38
 console.log(a)

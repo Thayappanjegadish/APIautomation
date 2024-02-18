@@ -1,4 +1,4 @@
-// JS map is a collection  of elements where each value is stored in a key value pair. Map objects can hold both object and primitive value 
+// JS map is a collection of elements where each value is stored in a key value pair. Map objects can hold both object and primitive value 
 // as either key or value. 
 
 let mapobj = new Map([ ["laptop", 1000 ],
@@ -21,5 +21,9 @@ add.set("lastname","Thayappan");
 add.set("Websites","www.geeksforgeeks.com")
 
 console.log(add)
+
+// Example two
+
+let info = new Map([["Vehicle", 3]])
 
 

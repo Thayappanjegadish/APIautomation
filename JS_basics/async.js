@@ -7,4 +7,5 @@ async function numberone() {
     let promise = new promise(function(resolve,reject){
             resolve("I love you")
     })
+
 }

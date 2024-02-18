@@ -43,3 +43,24 @@ promise.then(function() {
 }).finally(function() {
     console.log("Execution of code is done")
 })
+
+
+// Third example
+
+let run = new Promise(function(resolve,reject) {
+
+    var first = "Love"
+    var second = "Love"
+
+    if (first == second) {
+        resolve();
+    } else {
+        reject();
+    }
+});
+
+promise.then(function() {
+     console.log("Love is pure")
+}).catch(function() {
+    console.log("Some error has occured")
+})
