@@ -1,0 +1,13 @@
+DS is a particular way of storing and organzing data and to use it effieciently 
+The main idea of DS is to reduce time and space complexities.
+Efficient DS takes minimum time and minimum memory space for execution.
+
+
+PROCESS OF LEARNING DS:
+Learn about time and space complexities
+Learn about individual DS
+Practice more problems on those DS
+
+
+Time complexities : The amount of time required to execute the code.
+Space complexities : The amount of memeory required to execute the code.

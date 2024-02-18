@@ -13,6 +13,8 @@ function data() {
 first(data)
 
 
+// example two
+
 function ops(callback) {
     var b = "This function perform operations"
     callback(console.log(b))
@@ -24,3 +26,18 @@ function info() {
 }
 
 ops(info)
+
+
+
+// example 3
+
+function suno(callback) {
+    var c = "This is a callback"
+    callback(console.log(c))
+}
+
+function tuso(){
+    console.log("This will be passed as parameter")
+}
+
+suno(tuso)
