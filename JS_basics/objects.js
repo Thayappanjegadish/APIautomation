@@ -1,5 +1,6 @@
 // Object is a collection of properties where all the data is stored in a key value pair
 
+const cls = require('./Classes')
 const a = new Object()
 a.first = 38
 console.log(a)
@@ -21,3 +22,21 @@ for (let key in Office){
 
 
 console.log(Office.location)
+
+let person = {
+    firstname: 'Jegadish',
+    lastname: 'Thayappan',
+    age:'28',
+
+    fullname : function() {
+        console.log(this.firstname+this.lastname)
+    }
+}
+
+console.log(person.fullname())
+
+// print the value of the objects
+for(let key in person){
+    console.log(person[key])
+}
+

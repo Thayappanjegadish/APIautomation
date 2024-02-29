@@ -28,3 +28,15 @@ class secondclass extends emp {
 console.log("It adds two numbers" +add)
 
 
+module.exports = class person {
+
+    age = 28
+
+    get name() {
+        return "chennai"
+    }
+
+
+}
+
+
